@@ -1,6 +1,7 @@
 # PROJET-EN-C++
 ## Description de jeux : 
 CYCLIST DODGER est un jeu d’arcade dans lequel le joueur incarne un cycliste roulant sur une route semée d’obstacles (pierres). 
+
 Le but du jeu est de **parcourir la plus longue distance possible** en **évitant les obstacles** qui apparaissent progressivement à l’écran. 
 
 Le joueur peut **se déplacer latéralement** (gauche/droite) à l’aide des touches du clavier pour esquiver les obstacles. 
@@ -16,7 +17,9 @@ Ce jeu allie **réactivité, coordination** et **anticipation**, tout en restant
 ## L’architucture de code : 
 **Organization générale** : 
 Le jeu CYCLIST DODGER est développé en C++ selon une **architecture orientée objet**. 
+
 Chaque entité principale du jeu (joueur, obstacles, interface, etc.) est représentée par une **classe dédiée**, ce qui permet une séparation claire des responsabilités et facilite la maintenance et l'évolution du code. 
+
 Les responsabilités sont réparties comme suit : 
 - **Menu** : affiche le menu principal et gère la navigation entre les états du jeu. 
 - **About** :affiche bref explication sur le jeux. 
